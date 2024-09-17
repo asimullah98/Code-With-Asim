@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 15vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo:hover {
+    background-color: white;
+    cursor: pointer;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 23px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    color: blue;
+    background-color: white;
+}
+
+.btn-1 {
+    height: 31px;
+    width: 70px;
+    color: white;
+    background: black;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background: blue;
+}
+
+.btn-2 {
+    height: 31px;
+    width: 70px;
+    color: white;
+    background: black;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: blue;
+}
+
+.line {
+    border: 1px solid grey;
+}
+
+/* Section-1 is here... */
+
+.section-1 {
+    height: 10vh;
+    background-color: rgb(224, 233, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.section-1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.section-1 li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.section-1 li:hover{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+li:hover{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.section-1 .home:hover{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.section-1 .search-icon:hover{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+/* section-2 is here... */
+
+.section-2 {
+    height: 60vh;
+    background-color: cyan;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    position: relative;
+}
+
+.right {
+    padding: 60px;
+    /* position: absolute; */
+}
+
+.left {
+    padding: 60px;
+}
+
+.left h1 {
+    padding-bottom: 10px;
+}
+
+.left h2 {
+    padding-bottom: 10px;
+}
+
+.left p {
+    padding-bottom: 15px;
+}
+
+
+.new-btn-1 {
+    height: 44px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+
+.new-btn-2 {
+    height: 44px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+/* Section 3 is here... */
+
+.section-3 {
+    height: 120vh;
+    background-color: rgb(211, 244, 255);
+}
+
+.card-2 {
+    margin-bottom: 100px;
+}
+
+.card-3 {
+    margin-bottom: 100px;
+}
+
+.section-3 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 12px;
+}
+
+.card-1 {
+    margin-bottom: 23px;
+}
+
+.card-1 {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 315px;
+    background-color: whitesmoke;
+    padding: 23px;
+    /* margin: 23px; */
+    margin-left: 23px;
+    margin-bottom: 33px;
+    position: absolute;
+    padding: 6px 7px 7px 6px;
+}
+
+.card-1 {
+    margin-top: 18px;
+}
+
+.card-1 p {
+    padding: 12px 0px;
+}
+
+.card-1 h2 {
+    font-size: 18px;
+    padding: 12px 0px;
+}
+
+.card-1 h3 {
+    font-size: 15px;
+}
+
+.sec3-btn {
+    margin-top: 9px;
+    margin-bottom: 6px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+}
+
+.card-2 {
+    margin-top: 23px;
+}
+
+.card-2 {
+    margin-left: 700px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 315px;
+    background-color: whitesmoke;
+    padding: 23px;
+    margin-bottom: 88px;
+
+}
+
+.card-2 {
+    margin-left: 700px;
+    margin-bottom: 55px;
+}
+
+.card-2 p {
+    padding: 12px 0px;
+}
+
+.card-2 h2 {
+    font-size: 18px;
+    padding: 12px 0px;
+}
+
+.card-2 h3 {
+    font-size: 15px;
+}
+
+.sec3-btn {
+    margin-top: 9px;
+    margin-bottom: 6px;
+}
+
+.card-3 {
+    margin-right: 700px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 315px;
+    background-color: whitesmoke;
+    padding: 23px;
+    /* margin: 23px; */
+    margin-left: 23px;
+    position: absolute;
+}
+
+.card-3 {
+    margin-top: 23px;
+}
+
+.card-3 p {
+    padding: 12px 0px;
+}
+
+.card-3 h2 {
+    font-size: 18px;
+    padding: 12px 0px;
+}
+
+.card-3 h3 {
+    font-size: 15px;
+}
+
+.sec3-btn {
+    margin-top: 9px;
+    margin-bottom: 6px;
+}
+
+/* End is here... */
+
+.end {
+    height: 20vh;
+    background-color: rgb(216, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.end-social {
+    padding: 13px 12px 12px 14px;
+    cursor: pointer;
+}
